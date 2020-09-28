@@ -1,0 +1,9 @@
+.botonCrearReseña{
+    background:#00aa9a !important;
+    border: 1px solid #00aa9a !important;
+}
+
+.botones:hover{
+    background:#057a6f !important;
+    border: 1px solid #057a6f !important;
+}

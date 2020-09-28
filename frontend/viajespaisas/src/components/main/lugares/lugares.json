@@ -1,0 +1,17 @@
+{
+    "Pueblito":{
+        "id":1,
+        "descripcionSitio":"El pueblito Paisa es una representación de cualquier pueblo de antioquia en la antigüedad. Cuenta con una plaza en piedra, una fuenta, una iglesia, una casa cural, la alcaldía, la barbería y la escuela, que son caracteristicos de los pueblos tradicionales. El Pueblito Paisa tiene un teatro al aire libre, senderos peatonales, esculturas, plazoletas, miradoresm restaurantes, parqueaderos, zonas de descanso y quioscos. Todo enmarcado en una arquitectura típica de la zona. En el Pueblito Paisa también sobrevive el Museo de Ciudad, el Teatro Carlos Vieco, cuna del rock antioqueño y el parque de las Esculturas",
+        "disponibilidadSitio":"Disponible"
+    },
+    "Pasaje":{
+        "id":2,
+        "descripcionSitio":"El pasaje de la Bastilla es un sitio turístico porque es una zona muy habitada donde pasan muchas personas, hay mucha clientela, especialmente hay mucha variedad de libros ya que ahí mismo queda el Centro Comercial del Libro y la Cultura y es muy reconocido por lo antiguo que es el sitio. Hoy tres decadas después, las apuestas y las loterías siguen siendo paisaje común en ese tramo de la Batilla. El pasaje siempre está lleno por las mesas de los loteros, que se ubican a lado y lado de la calle",
+        "disponibilidadSitio":"Disponible"
+    },
+    "Plaza":{
+        "id":3,
+        "descripcionSitio":"Disfrute de apreciar 23 esculturas monumentales donadas por el Maestro Fernando Botero. Está situada en uno de los lugares más tradicionales y característicos de la ciudad: cerca del Parque de Berrío, el Museo de Antioquia, el Palacio de la cultura y el Hotel Nutibara; convirtiendolo no sólo en el epicentro del arte y la cultura de Medellín, sino también, en lugar de paso obligado para los visitantes",
+        "disponibilidadSitio":"No Disponible"
+    }
+}
