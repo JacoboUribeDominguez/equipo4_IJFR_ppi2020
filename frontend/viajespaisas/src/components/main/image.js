@@ -16,12 +16,13 @@ class Image extends Component{
             margin: '0'
         }
         return(
-            <Row className="imageContainer">
-                <Col lg={3} md={3} xl={3} style={colPading}></Col>
-                <Col xs={12} lg={6} md={6} xl={6} style={colPading}> 
+            <Row className="imageContainer" >
+                <Col xs={12} lg={3} md={3} style={colPading}></Col>
+                <Col xs={12} lg={6} md={6} style={colPading}> 
                     <img src={background} alt="mapa-medellin" style={image}/>
+                    
                 </Col>
-                <Col lg={3} md={3} xl={3}></Col>
+                <Col xs={12} lg={3} md={3} ></Col>
             </Row>
         );
     }

@@ -5,7 +5,28 @@ import {Link} from 'react-router-dom';
 
 export default class Pueblito extends Component {
 
+    state = {
+        descripcion: '',
+        disponibilidad: ''
+    }
+    
+    componentDidMount(){
+        const sitio = this.props.match.params.lugar;
+        fetch(`http://localhost:4000/sites/encontrar/${sitio}`)
+        .then(res => res.json())
+        .then( response => {
+                this.setState({
+                    descripcion : response[0].descSitio
+                })
+                this.setState({
+                    disponibilidad : response[0].disponibilidadSitio
+                })
+            }
+        )
+    }
+
     render(){
+        
         const marginTop = {
             marginTop:'24px'
         }
@@ -43,10 +64,10 @@ export default class Pueblito extends Component {
                                     <Col style={colImagen} xs={12} lg={6}>
                                         <div style={contenedorImagen} className="d-flex flex-column align-items-center p-4">    
                                             <p className="text-center" style={descripcion}>
-                                                {this.props.descripcionSitio}
+                                                {this.state.descripcion}
                                             </p>
                                             <div style={disponibilidad}>
-                                                {this.props.disponibilidadSitio}
+                                                {this.state.disponibilidad}
                                             </div>
                                         </div>
                                         
@@ -56,13 +77,13 @@ export default class Pueblito extends Component {
                                 <Row>
                                     <Col xs={12} lg={3}/>
                                     <Col style={colImagen} className="mt-4" xs={12} lg={6}>
-                                        <Link to="/login">
+                                        <Link to={`/map/${this.props.match.params.lugar}`}>
                                             <Button variant="primary" className="mb-2 botones">
                                                 Ver Mapa
                                             </Button>
                                         </Link>
                                         
-                                        <Link to="/crearReseña">
+                                        <Link to={`/crearReseña/${this.props.match.params.lugar}`}>
                                             <Button variant="primary" className="mb-2 botones">
                                                 Puntuar
                                             </Button>

@@ -53,7 +53,7 @@ function Agradecimiento() {
                 </div>
             </Link>
             
-            <Link to="/" style={{textDecoration:'none'}}>
+            <Link to="/inicio" style={{textDecoration:'none'}}>
                 <div style={botonVerde2}>
                     <button className="btn btn-lg text-white px-5" style={{background:'#8cc63f'}}>Regresar</button>
                 </div>

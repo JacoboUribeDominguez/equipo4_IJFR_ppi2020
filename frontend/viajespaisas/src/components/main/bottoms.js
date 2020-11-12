@@ -25,14 +25,14 @@ class Bottoms extends Component{
                 <Row className="">
                     <Col lg={3} md={2} xl={3}></Col>
                     <Col className="text-center" xs={6} md={4} lg={3} style={button}>
-                        <Link to="/lugares" className="linkButton">
+                        <Link to="/inicio/lugares" className="linkButton">
                             <div style={linkButton}>
                                 Lugares
                             </div>                    
                         </Link>
                     </Col>
                     <Col className="text-center" xs={6} md={4} lg={3} style={button}>
-                        <Link to="/lugares" className="linkButton">
+                        <Link to="/map" className="linkButton">
                             <div style={linkButton}>
                                 Ver mapa
                             </div>

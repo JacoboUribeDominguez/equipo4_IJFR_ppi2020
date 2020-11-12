@@ -16,7 +16,7 @@ class Header extends Component {
 
         return(
             <div style={navbar} className="d-flex align-items-center justify-content-center p-3">
-                <Link to="/">
+                <Link to="/inicio">
                     <img src={logoViajes} alt="logoViajes" style={logoViajesEstilos}/>
                 </Link>
             </div>
