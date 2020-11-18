@@ -34,7 +34,7 @@ CREATE TABLE `reseñas` (
   `puntuacion` int(11) NOT NULL,
   `codigoUsuario` int(11) NOT NULL,
   `codigoSitio` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -46,7 +46,7 @@ CREATE TABLE `sitios` (
   `codigoSitio` int(11) NOT NULL,
   `descSitio` varchar(45) NOT NULL,
   `disponibilidadSitio` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb;
 
 -- --------------------------------------------------------
 
@@ -60,7 +60,7 @@ CREATE TABLE `usuarios` (
   `nombre` varchar(45) NOT NULL,
   `correo` varchar(45) NOT NULL,
   `contraseña` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb;
 
 --
 -- Índices para tablas volcadas
